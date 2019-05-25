@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "personal portfolio",
+  "main": "src/index.js",
+  "scripts": {
+    "eslint": "eslint ext .js src/test/",  
+    "htmlhint": "htmlhint src/*.html",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaphieM/TaphieM.github.io.git"
+  },
+  "author": "Stephanie Mayen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TaphieM/TaphieM.github.io/issues"
+  },
+  "homepage": "https://github.com/TaphieM/TaphieM.github.io#readme",
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "gh-pages": "^2.0.1",
+    "htmlhint": "^0.11.0",
+    "save": "^2.4.0"
+  }
+}
