@@ -1,0 +1,56 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+#menu {
+    background-color: #230C33;
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    flex: 0 0 auto;
+    flex-basis: 100%;
+    height: 126px;
+}
+
+#myname{
+    color:#04A777;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    margin-right: 450px;
+    margin-top: 50px;
+}
+
+#navbarNav a {
+    color:#04A777;
+    padding-top: 70px;
+    padding-right: 40px;
+}
+
+#salute{
+    width: 50%;
+    position: relative;
+    max-width: 100%;
+    flex: 0 0 auto;
+    flex-basis: 100%;
+    
+    height: 80%;
+
+    font-size: 46px;
+
+
+    margin-top: 150px;
+    margin-left:25%;
+    margin-right: 25%;
+    color: #820263;
+    line-height: 55px;
+}
+
+#salute h5{
+    color: #0c0b0b;
+    padding-bottom: 20px;
+}
+
+#salute span {
+    text-decoration: line-through;
+}
