@@ -14,6 +14,9 @@ nav {
     justify-content: space-between;
     padding-top: 50px;
     align-items: center;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 } 
 
 /* Navbar first section*/
@@ -71,11 +74,6 @@ nav {
     padding: 40px;
 }
 
-.card {
-    height: 400px;
-    width: 380px;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -105,16 +103,36 @@ nav {
 .fa-html5:before {
     color: #04A777;
 }
+
 #contacticons {
     display: flex;
     color: #820263;
+}
+
+.email, .cv, .github, .linkedin{
+    padding: 5%;
+    margin:5%;
 }
 
 .fa-envelope:before, .fa-download:before, .fa-github:before,.fa-linkedin:before {
     color: #820263;
 }
 
+hr {
+   height: 40px;
+   color: #230C33;
+}
+
 #aboutme {
     display: flex;
     padding: 40px;
+}
+
+#aboutme img {
+    width:500px;
+    height:500px ;
+}
+
+.textaboutme {
+    padding: 5%;
 }
