@@ -16,40 +16,109 @@
 </head>
 
 <body>
-    <!--Barra de navegación-->
-    <nav id="menu" class="navbar navbar-expand-lg navbar-light">
-            <a id="myname" class="navbar-brand" href="#">STEPHANIE MAYEN</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">PROJECTS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">CONTACT</a>
-                </li>
-              </ul>
+    <!-- Navbar -->
+    <nav>
+      <div class="myname">
+          <a href="">STEPHANIE MAYEN</a> 
+      </div>  
+      <div class="options">
+          <ul>
+            <li><a href="#aboutme">ABOUT</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+      </div>    
+    </nav>
+     <!-- End Navbar -->
+<main id="allsections">
+    <!-- First section -->
+      <section id="salute">
+        <h5><b>IT`S NICE TO MEET YOU</b></h5>
+        <h1><strong>I´M A FRONT END DEVELOPER & UX DESIGNER BASED IN <span>MÉXICO</span> CHILE</strong></h1>
+      </section>
+    <!-- End First section -->
+
+    <!-- Second Section -->
+    <section id="projects">
+        <div class="card">
+           <div class="header">
+             <div id="projectname"><h5>PROJECT NAME</h5></div>
+             <div id="githlink"><i class="fab fa-github"></i></div>
             </div>
-          </nav>
-     
-          <main>
-              <section id="salute">
-                  <h5><b>IT`S NICE TO MEET YOU</b></h5>
-                  <p><strong>I´M A FRONT END DEVELOPER & UX DESIGNER BASED IN <span>MÉXICO</span> CHILE</strong></p>
-              </section>
-              <section id="projects">
-                  <div>
+            <figure><img class="picture" src="img/picture.png" alt=""></figure>
+            <div id="resume">
+                <div id="skills">
+                    <h6><strong>SKILLS</strong></h6>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <div id="description">
+                    <h6><strong>BRIEF DESCRIPTION</strong></h6>
+                    <p>Text about what the project is about Text about what the project is about Text about what the project is about Text about what the project is about</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+                    <div class="header">
+                      <div id="projectname"><h5>PROJECT NAME</h5></div>
+                      <div id="githlink"><i class="fab fa-github"></i></div>
+                     </div>
+                     <figure><img class="picture" src="img/picture.png" alt=""></figure>
+                     <div id="resume">
+                         <div id="skills">
+                             <h6><strong>SKILLS</strong></h6>
+                             <i class="fab fa-html5"></i>
+                             <i class="fab fa-js-square"></i>
+                             <i class="fab fa-css3-alt"></i>
+                         </div>
+                         <div id="description">
+                             <h6><strong>BRIEF DESCRIPTION</strong></h6>
+                             <p>Text about what the project is about Text about what the project is about Text about what the project is about Text about what the project is about</p>
+                         </div>
+                     </div>
+                 </div> 
+    </section>
+    <!-- End Second section -->
 
-                  </div>
-              </section>
+   <!-- Third Section -->
+   <section id="contact">
+       <div id="contacticons">
+      <div class="email">
+         <i class="fas fa-envelope"></i>
+         <h5><strong>EMAIL</strong></h5>
+      </div>
+      <div class="cv">
+         <i class="fas fa-download"></i>
+         <h5><strong>CV</strong></h5>
+      </div>
+      <div class="github">
+        <i class="fab fa-github"></i>
+        <h5><strong>GITHUB</strong></h5>
+      </div>   
+      <div class="linkedin">
+        <i class="fab fa-linkedin"></i>
+        <h5><strong>LINKED IN</strong></h5>
+      </div>   
+    </div>      
+      <div class="message"><h2>LET`S TALK!</h2></div>
+   </section>
+   <!-- End Third section -->
 
-          </main>
-
+   <!-- Fourth Section -->
+     <section id="aboutme">
+         <figure><img src="img/little-girl-face.png" alt=""></figure>
+         <div class="textaboutme">
+          <h5>A BIT MORE ABOUT ME</h5>
+          <p>Text about me Text about me Text about me Text about me Text about me </p><br>
+          <p>Text about me Text about me Text about me Text about me Text about me </p><br>
+          <p>Text about me Text about me Text about me Text about me Text about me </p><br>
+          <p>Text about me Text about me Text about me Text about me Text about me </p><br>
+          <p>Text about me Text about me Text about me Text about me Text about me </p><br>
+         </div>
+    </section>
+   <!-- End Fourth section -->
+</main>
     <!--Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -57,3 +126,9 @@
 </body>
 
 </html>
+
+ <!-- Aquí acaba el navbar -->
+
+
+  
+ 

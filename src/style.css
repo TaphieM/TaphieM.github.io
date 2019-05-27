@@ -1,49 +1,59 @@
+/*Apply to all document*/
 * {
     font-family: 'PT Sans', sans-serif;
+    padding:0px;
+    margin:0px;
     text-align: center;
 }
 
-#menu {
+/* Apply to all the navbar */
+nav {
+    display: flex;   /*elements orientation to side*/ 
     background-color: #230C33;
-    width: 100%;
-    position: relative;
-    max-width: 100%;
-    flex: 0 0 auto;
-    flex-basis: 100%;
-    height: 126px;
-}
+    height: 110px;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+} 
 
-#myname{
-    color:#04A777;
-    font-size: 30px;
+/* Navbar first section*/
+.myname a {
     font-family: 'Dosis', sans-serif;
-    margin-right: 450px;
-    margin-top: 50px;
+    font-size: 180%;
+    color: #04A777;
+    padding-left: 10%;
+    text-decoration: none;
+}
+/*Navbar second section*/
+.options ul{
+    display: flex;
+    list-style: none;
+   ;
+  }
+
+.options a {
+    color: #04A777;
+    font-size: 80%; 
+    padding:20px;
+    text-decoration: none;
+    align-items: center;
 }
 
-#navbarNav a {
-    color:#04A777;
-    padding-top: 70px;
-    padding-right: 40px;
-}
+.options li a:hover{
+    color:#FB8B24; 
+}  
+ 
+#salute, #projects, #contact, #aboutme {
+    max-width: 100%;
+    margin-top: 250px;
+    margin-bottom: 250px;   
+} 
 
 #salute{
-    width: 50%;
-    position: relative;
-    max-width: 100%;
-    flex: 0 0 auto;
-    flex-basis: 100%;
-    
-    height: 80%;
-
-    font-size: 46px;
-
-
-    margin-top: 150px;
-    margin-left:25%;
-    margin-right: 25%;
     color: #820263;
     line-height: 55px;
+    margin-left:25%;
+    margin-right: 25%;
 }
 
 #salute h5{
@@ -53,4 +63,58 @@
 
 #salute span {
     text-decoration: line-through;
+}
+
+#projects {
+    display: flex;
+    background-color: #820263;
+    padding: 40px;
+}
+
+.card {
+    height: 400px;
+    width: 380px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;  
+}
+
+.picture{
+   width: 250px;
+   height: 180px;
+}
+
+#skills{
+    display: flex; 
+    color: #04A777;
+    padding-bottom: 20px;
+}
+
+#skills h6 {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#skills i {
+    padding-right: 30px;
+}
+
+.fa-html5:before {
+    color: #04A777;
+}
+#contacticons {
+    display: flex;
+    color: #820263;
+}
+
+.fa-envelope:before, .fa-download:before, .fa-github:before,.fa-linkedin:before {
+    color: #820263;
+}
+
+#aboutme {
+    display: flex;
+    padding: 40px;
 }
