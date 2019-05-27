@@ -12,8 +12,8 @@ nav {
     background-color: #230C33;
     height: 110px;
     justify-content: space-between;
-    padding-top: 50px;
-    align-items: center;
+    padding-bottom: 20px;
+    align-items: flex-end;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -69,9 +69,18 @@ nav {
 }
 
 #projects {
-    display: flex;
+    
     background-color: #820263;
     padding: 40px;
+}
+
+#cards {
+    display: flex;
+    background: white;
+    padding:20px;
+}
+#card {
+    padding: 20px;
 }
 
 .header {
