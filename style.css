@@ -46,14 +46,17 @@ nav {
     color:#FB8B24; 
 }  
  
-#salute, #projects, #contact, #aboutme {
+#projects, #contact, #aboutme {
     max-width: 100%;
-    margin-top: 250px;
-    margin-bottom: 250px;   
+    padding-top: 140px;
+    height: 700px;
 } 
 
 #salute{
     color: #820263;
+    max-width: 100%;
+    padding-top: 300px;
+    height: 500px;
     line-height: 55px;
     margin-left:25%;
     margin-right: 25%;
@@ -74,7 +77,6 @@ nav {
 
 #projects { 
     background-color: #820263;
-    padding: 40px;
 }
 
 .cards {
@@ -112,7 +114,7 @@ nav {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px;  
+    padding: 10px;  
 }
 
 .header h5 {
@@ -132,52 +134,59 @@ nav {
 .skills{
     display: flex; 
     color: #04A777;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
-.skills h6 {
-    padding-right: 30px;
-    padding-left: 30px;
+.skills h4 {
+  padding: 15px;
 }
 
-.skills i {
-    padding-right: 30px;
+.skills img {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
 }
 
-.fa-html5:before {
-    color: #04A777;
+.description p {
+    padding: 10px;
 }
 
-#contacticons {
+.contacticons {
     display: flex;
     color: #820263;
+    padding-top: 140px;
 }
 
-.email, .cv, .github, .linkedin{
-    padding: 5%;
-    margin:5%;
-}
 
-.logocontact {
+.logocontact img {
     width: 50px;
     height: 50px;
 }
 
-hr {
-   height: 40px;
-   color: #230C33;
+.contacticons .logocontact{
+    width: 330px;
+    height: 190px;
+    text-align: center;
 }
 
-#aboutme {
+.message{
+    padding-top: 60px;
+    font-size: 50px;
+    color: #820263;
+}
+
+.allaboutme {
     display: flex;
-    padding: 40px;
+    padding-top: 100px;
 }
 
-#aboutme img {
+.mypic img {
     width:500px;
-    height:500px ;
+    height:500px;
+    padding-right: 40px;
 }
 
 .textaboutme {
-    padding: 5%;
+    width: 450px;
+    height: 400px; 
 }
