@@ -9,6 +9,7 @@
 /* Apply to all the navbar */
 nav {
     display: flex;   /*elements orientation to side*/ 
+    flex-wrap: wrap;
     background-color: #230C33;
     height: 110px;
     justify-content: space-between;
@@ -31,7 +32,6 @@ nav {
 .options ul{
     display: flex;
     list-style: none;
-   ;
   }
 
 .options a {
@@ -47,9 +47,9 @@ nav {
 }  
  
 #projects, #contact, #aboutme {
-    max-width: 100%;
+    /* max-width: 100%; */
     padding-top: 140px;
-    height: 700px;
+    height: auto;
 } 
 
 #salute{
@@ -82,7 +82,6 @@ nav {
 .cards {
     width: 100%;
     max-width: 1200px;
-    height: 430px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -153,8 +152,10 @@ nav {
 
 .contacticons {
     display: flex;
+    flex-wrap: wrap;
     color: #820263;
     padding-top: 140px;
+    padding-bottom: 10%;
 }
 
 
@@ -164,29 +165,113 @@ nav {
 }
 
 .contacticons .logocontact{
-    width: 330px;
-    height: 190px;
+    width: 25%;
+    /* height: 190px; */
     text-align: center;
+}
+.contacticons .logocontact:hover{
+    transform: translateY(-15px);
 }
 
 .message{
-    padding-top: 60px;
-    font-size: 50px;
+    max-width: 100%;
+    padding:5%;
+    font-size: 200%;
     color: #820263;
 }
 
 .allaboutme {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 100px;
+    justify-content: center;
+    margin: auto;
+}
+
+#aboutme .allaboutme {
+padding: 10%;
 }
 
 .mypic img {
-    width:500px;
-    height:500px;
-    padding-right: 40px;
+    width: 80%;
+    height: 90%;
 }
 
 .textaboutme {
     width: 450px;
-    height: 400px; 
+    height: 400px;
+    /* padding-left: 10%;  */
+}
+
+@media screen and (max-width:1023px){
+ .textaboutme{
+    padding-top: 10%;
+ }  
+ 
+ #aboutme .allaboutme {
+    padding: 5%;
+    flex-wrap: nowrap;
+    }
+ }
+
+@media screen and (max-width:767px){
+    /* .contacticons .logocontact {
+        height: 240px;
+} */
+
+#aboutme .allaboutme {
+    padding: 10%;
+    flex-wrap: wrap;
+    }
+
+    .textaboutme {
+        width: auto;
+        height: auto;
+    }   
+ }
+
+
+@media screen and (max-width:479px){
+ 
+#salute {
+    padding-top: 200px;
+}
+
+.contacticons {
+    padding-top: 50px;
+    padding-bottom: 20%;
+}
+}
+
+@media screen and (max-width:319px){
+
+    #salute {
+         margin-left: 0%;
+         margin-right: 0%; 
+    }
+
+    .picture {
+        width: 80%;
+        height: 50%;
+    }
+
+    .cards .card {
+        height: auto;
+}
+
+.contacticons .logocontact {
+    padding: 10%;
+}
+
+.contacticons {
+    padding-top: 5px;
+}
+
+
+
+.logocontact img {
+    width: 30px;
+    height: 30px;
+}
+
 }
