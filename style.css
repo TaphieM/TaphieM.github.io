@@ -36,7 +36,7 @@ nav {
 
 .options a {
     color: #04A777;
-    font-size: 80%; 
+    font-size: 90%; 
     padding:20px;
     text-decoration: none;
     align-items: center;
@@ -77,7 +77,10 @@ nav {
 
 #projects { 
     background-color: #820263;
+    padding-bottom: 140px;
 }
+
+
 
 .cards {
     width: 100%;
@@ -126,8 +129,8 @@ nav {
 }
 
 .picture{
-   width: 250px;
-   height: 180px;
+    width: 250px;
+    height: 180px;
 }
 
 .skills{
@@ -137,7 +140,7 @@ nav {
 }
 
 .skills h4 {
-  padding: 15px;
+    padding: 15px;
 }
 
 .skills img {
@@ -182,7 +185,7 @@ nav {
 
 .allaboutme {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding-top: 100px;
     justify-content: center;
     margin: auto;
@@ -190,11 +193,13 @@ nav {
 
 #aboutme .allaboutme {
 padding: 10%;
+margin-left: -70px;
 }
 
 .mypic img {
     width: 80%;
-    height: 90%;
+    height: auto;
+    margin-left: 0px;
 }
 
 .textaboutme {
@@ -210,6 +215,7 @@ padding: 10%;
  
  #aboutme .allaboutme {
     padding: 5%;
+    margin-left: 0px;
     flex-wrap: nowrap;
     }
  }
@@ -242,6 +248,8 @@ padding: 10%;
     padding-bottom: 20%;
 }
 }
+
+
 
 @media screen and (max-width:319px){
 
