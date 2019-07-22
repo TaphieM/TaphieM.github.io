@@ -3,7 +3,6 @@
     font-family: 'PT Sans', sans-serif;
     padding:0px;
     margin:0px;
-    text-align: center;
 }
 
 /* Apply to all the navbar */
@@ -53,6 +52,7 @@ nav {
 } 
 
 #salute{
+    text-align: center;
     color: #820263;
     max-width: 100%;
     padding-top: 300px;
@@ -177,6 +177,7 @@ nav {
 }
 
 .message{
+    text-align:center;
     max-width: 100%;
     padding:5%;
     font-size: 200%;
@@ -185,10 +186,16 @@ nav {
 
 .allaboutme {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     padding-top: 100px;
     justify-content: center;
     margin: auto;
+}
+
+#aboutme {
+    text-align: center;
+    justify-content: center;
+    font-size: 17px;
 }
 
 #aboutme .allaboutme {
@@ -200,6 +207,7 @@ margin-left: -70px;
     width: 80%;
     height: auto;
     margin-left: 0px;
+    padding-bottom: 10%;
 }
 
 .textaboutme {
@@ -207,16 +215,30 @@ margin-left: -70px;
     height: 400px;
     /* padding-left: 10%;  */
 }
+.textaboutme h1 {
+    padding-bottom: 5%;
+}
+
+.textaboutme span {
+    border-bottom: 1.5px rgba(163,32,109,0.7) dashed;
+    color:rgba(163,32,109,0.7); 
+}
+
+.textaboutme a:hover{
+    color:rgba(163,32,109,0.7); 
+} 
+
+.textaboutme a {
+    text-decoration: none;
+    color: black;
+}
 
 @media screen and (max-width:1023px){
- .textaboutme{
-    padding-top: 10%;
- }  
- 
+
  #aboutme .allaboutme {
     padding: 5%;
     margin-left: 0px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     }
  }
 
